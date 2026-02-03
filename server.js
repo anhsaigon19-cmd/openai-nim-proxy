@@ -7,7 +7,7 @@ const axios = require('axios');
 const app = express();
 
 // 🚨 QUAN TRỌNG: Railway cấp PORT động
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000
 
 // Middleware
 app.use(cors());
