@@ -8,6 +8,7 @@ const app = express();
 
 // 🚨 QUAN TRỌNG: Railway cấp PORT động
 const PORT = process.env.PORT || 3000;
+PORT = 8080
 
 // Middleware
 app.use(cors());
